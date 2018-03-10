@@ -10,14 +10,30 @@
 
 h1, h2, h3, h4, h5 {
   color: #673F99;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
 }
-/*.mprm-main-wrapper .mprm-taxonomy-title, .mprm-container .mprm-taxonomy-title, .mprm-content-container b {
-  color: #673F99;
-  font-weight: 500;
+
+.mprm-content-container.mprm-title {
+    color: #673F99;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 1.05;
+    margin: 0 0 12px 0;
 }
-*//*.mprm-container .mprm-taxonomy-title {
-    font-size: 170%;
-}*/
+
+h1.mprm-title {
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+h2.mprm-title {
+    letter-spacing: 1.5px;
+}
+
+/*font-family: 'Cabin', sans-serif;*/
 
 * {
   box-sizing: border-box;
@@ -57,7 +73,7 @@ p.long-price {
 }
 .home-social-icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .home-social-icons img {

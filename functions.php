@@ -13,6 +13,13 @@ function generatepress_child_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'generatepress_child_enqueue_scripts', 100 );
 
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Cabin:700', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
 
 // These are the places the mprm_menu_item_grid_price function with the price conditional is used
 // found in /classes/class-hooks.php
