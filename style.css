@@ -1,0 +1,115 @@
+/*
+ Theme Name:   Monumental Cupcakes
+ Theme URI:    https://generatepress.com
+ Description:  GeneratePress child theme
+ Author:       Lisa Wells via Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1.0
+*/
+
+h1, h2, h3, h4, h5 {
+  color: #673F99;
+}
+/*.mprm-main-wrapper .mprm-taxonomy-title, .mprm-container .mprm-taxonomy-title, .mprm-content-container b {
+  color: #673F99;
+  font-weight: 500;
+}
+*//*.mprm-container .mprm-taxonomy-title {
+    font-size: 170%;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*home page, top section*/
+
+.home-contact {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.home-social-hours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-hours {
+    border: 1px solid #000;
+    padding: 1em;
+    width: 23%;
+}
+
+.home-social {
+  width: 50%;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.home-social h2 {
+  font-weight: bold;
+}
+.home-social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-social-icons img {
+  max-width: 6em;
+  max-height: 6em;
+}
+
+/*categories in footer widget*/
+
+.mprm-menu-category {
+    border-radius: 36px 0;
+    margin-left: 0;
+}
+
+.mprm-category-content {
+  background: #673F99;
+  text-align: center;
+}
+.mprm-category-content:hover {
+  background: #4f3075;
+}
+
+.mprm-effect-hover {
+  display: none;
+}
+
+.mprm-title {
+    font-size: 1.5em;
+    overflow-wrap: normal;
+}
+
+.mprm-container.mprm-widget-categories.mprm-view-grid .mprm-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu-tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#menu-tags li {
+    list-style-type: none;
+    position: relative;
+    padding: 2%;
+    /*background: #057EBF;*/
+    background: #D3BAF2;
+    border: 2px solid #673F99;
+    width: 22%;
+    display: inline-block;
+    border-radius: 36px 0;
+    text-align: center;
+}
+
+#menu-tags li a {
+    color: #4f3075;
+    font-size: 1.5em;
+}
